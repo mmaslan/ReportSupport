@@ -1,0 +1,10 @@
+customtkinter==3.11
+darkdetect==0.5.1
+distlib==0.3.4
+et-xmlfile==1.1.0
+filelock==3.6.0
+openpyxl==3.0.9
+Pillow==9.1.0
+platformdirs==2.5.2
+six==1.16.0
+virtualenv==20.14.1
