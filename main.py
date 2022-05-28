@@ -5,11 +5,11 @@ from functions import Data_One, Data_Two, Add_User_Column
 
 root = tk.Tk()
 root.title("Report Support Tool")
-root.iconbitmap("C:\\Users\\marek\\PycharmProjects\\TeamSupport\\Images\\icon.ico")
+root.iconbitmap("C:\\Users\\marek\\PycharmProjects\\ReportSupport\\Images\\icon.ico")
 canvas = tk.Canvas(root, width=600, height=300, bg="grey")
 canvas.grid(columnspan=3, rowspan=3)
 
-logo = Image.open("C:\\Users\\marek\\PycharmProjects\\TeamSupport\\Images\\logo.bmp")
+logo = Image.open("C:\\Users\\marek\\PycharmProjects\\ReportSupport\\Images\\logo.bmp")
 logo = ImageTk.PhotoImage(logo)
 logo_label = tk.Label(image=logo)
 logo_label.image = logo
