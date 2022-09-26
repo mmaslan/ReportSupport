@@ -4,6 +4,8 @@ from datetime import datetime
 import getpass
 
 day = datetime.today().strftime("%m%d20%y")
+currentDateAndTime = datetime.now()
+currentTime = currentDateAndTime.strftime("%H:%M:%S")
 username = getpass.getuser()
 
 
